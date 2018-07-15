@@ -1,0 +1,67 @@
+{
+   materials: [
+      {
+         name: "1_Body1_Definition1",
+         parameters: [
+            {
+               baseColor: null,
+            },
+            {
+               baseColorTint: [
+                  0.95294100000000004,
+                  0.88627500000000003,
+                  0.77647100000000002,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "3_Body1_Definition1",
+         parameters: [
+            {
+               baseColor: null,
+            },
+            {
+               baseColorTint: [
+                  0.439216,
+                  0.50196099999999999,
+                  0.56470600000000004,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "Orientation",
+      ],
+      collision: {},
+      file: "sampledata/models/Lean-ah Shoe Rack v27 centered hq.obj",
+      name: "Lean-ah Shoe Rack v27 centered hq",
+      scale: 0.01,
+   },
+   version: "0.51:1",
+}
