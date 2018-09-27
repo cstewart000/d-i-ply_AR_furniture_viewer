@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/ux_fragment">
+
+
+    <!--<fragment-->
+        <!--android:id="@+id/fragmentHome"-->
+        <!--android:name="com.google.ar.sceneform.samples.hellosceneform.fragments.FragmentHome"-->
+        <!--android:label="fragmentHome"-->
+        <!--tools:layout="@layout/fragment_home">-->
+        <!--&lt;!&ndash;   <action-->
+               <!--android:id="@+id/action_fragmentA_to_fragmentB"-->
+               <!--app:destination="@id/fragmentB"-->
+               <!--app:enterAnim="@anim/slide_in_right"-->
+               <!--app:exitAnim="@anim/slide_out_left"-->
+               <!--app:popEnterAnim="@anim/slide_in_left"-->
+               <!--app:popExitAnim="@anim/slide_out_right"/>&ndash;&gt;-->
+    <!--</fragment>-->
+    <fragment android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:id="@+id/ux_fragment"
+        android:label="fragmentAr"
+        tools:layout="@layout/sceneform_ux_fragment_layout"/>
+        >
+    <!--<fragment
+        android:id="@+id/fragmentB"
+        android:name="com.courtapp.ui.FragmentB"
+        android:label="fragment_b"
+        tools:layout="@layout/fragment_b" />-->
+</navigation>
