@@ -1,0 +1,41 @@
+{
+   materials: [
+      {
+         name: "1_Body2_Definition1",
+         parameters: [
+            {
+               baseColor: null,
+            },
+            {
+               baseColorTint: [
+                  0.95294100000000004,
+                  0.88627500000000003,
+                  0.77647100000000002,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "Orientation",
+      ],
+      collision: {},
+      file: "sampledata/glens_monitor_riser_2_tier.obj",
+      name: "glens_monitor_riser_2_tier",
+      scale: 0.055556000000000001,
+   },
+   version: "0.51:1",
+}

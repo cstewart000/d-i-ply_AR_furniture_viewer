@@ -1,0 +1,41 @@
+{
+   materials: [
+      {
+         name: "1_Body1_Definition1",
+         parameters: [
+            {
+               baseColor: null,
+            },
+            {
+               baseColorTint: [
+                  0.439216,
+                  0.50196099999999999,
+                  0.56470600000000004,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "Orientation",
+      ],
+      collision: {},
+      file: "sampledata/on_again_off_again_.obj",
+      name: "on_again_off_again_",
+      scale: 0.033333000000000002,
+   },
+   version: "0.51:1",
+}

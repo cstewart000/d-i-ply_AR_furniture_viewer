@@ -36,13 +36,14 @@ import com.google.ar.sceneform.rendering.ModelRenderable;
 import com.google.ar.sceneform.ux.ArFragment;
 import com.google.ar.sceneform.ux.TransformableNode;
 
+
 /**
  * This is an example activity that uses the Sceneform UX package to make common AR tasks easier.
  */
 public class ArSceneformActivity extends AppCompatActivity {
 
 
-    private static final String TAG = ArSceneformActivity.class.getSimpleName();
+  private static final String TAG = ArSceneformActivity.class.getSimpleName();
   private static final double MIN_OPENGL_VERSION = 3.1;
 
   private ArFragment arFragment;

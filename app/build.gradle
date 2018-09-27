@@ -13,6 +13,7 @@
  * limitations under the License.
  */
 apply plugin: 'com.android.application'
+apply plugin: "androidx.navigation.safeargs"
 
 android {
     compileSdkVersion 27
@@ -56,6 +57,16 @@ dependencies {
     implementation "com.android.support:appcompat-v7:27.1.1"
     implementation "com.android.support:design:27.1.1"
     implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    def nav_version = "1.0.0-alpha06"
+
+    implementation "android.arch.navigation:navigation-fragment:$nav_version" // use -ktx for Kotlin
+    implementation "android.arch.navigation:navigation-ui:$nav_version" // use -ktx for Kotlin
+
+    // optional - Test helpers
+    androidTestImplementation "android.arch.navigation:navigation-testing:$nav_version"
+    // use -ktx for Kotlin
+
 }
 
 apply plugin: 'com.google.ar.sceneform.plugin'
@@ -71,3 +82,14 @@ sceneform.asset('sampledata/models/Lean-ah Shoe Rack v27 centered hq.obj',
         'default',
         'sampledata/models/Lean-ah Shoe Rack v27 centered hq.sfa',
         'src/main/res/raw/lean_ah_cen_hq')
+
+
+sceneform.asset('sampledata/glens_monitor_riser_2_tier.obj',
+        'default',
+        'sampledata/glens_monitor_riser_2_tier.sfa',
+        'src/main/res/raw/glens_monitor_riser_2_tier')
+
+sceneform.asset('sampledata/the_rory.obj',
+        'default',
+        'sampledata/the_rory.sfa',
+        'src/main/res/raw/the_rory')

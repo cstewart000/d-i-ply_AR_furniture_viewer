@@ -19,4 +19,10 @@
     <string name="title_activity_splash">SplashActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="home">Home</string>
+    <string name="help">Help</string>
+    <string name="model_1">Model 1</string>
+    <string name="model_2">Model 2</string>
+    <string name="model_3">Model 3</string>
+    <string name="model_4">Model 4</string>
 </resources>
